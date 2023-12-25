@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - góp ý</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>LIÊN HỆ - GÓP Ý</h1>
+            <p><img src="img_6/bullet1.gif" alt=""><span>Đây là kênh thông tin tiếp nhận những góp ý, chia sẻ, thắc mắc của tất cả phụ huynh, sinh viên, giảng viên, cán bộ nhân viên và tất cả những ai quan tâm gửi ý kiến đóng góp cho Nhà trường, Các câu hỏi, góp ý gửi đến sẽ hoàn toàn được giữ bí mật và được Hội Đồng Quản Trị, Ban Giám Hiệu, các trưởng bộ phận trả lời sớm nhất. Chân thành cảm ơn bạn đã có những ý kiến đóng góp xây dựng và phát triển Trường.</span></p>
+            <p><img src="img_6/bullet1.gif" alt=""><span>Chú ý : Để nhận được câu trả lời của Nhà trường xin vui lòng nhập địa chỉ Email chính xác</span></p>
+            <form action="">
+                <label>
+                    <span>Họ tên bạn :</span>
+                    <input id="name_" type="text">
+                    <div class="form_message"></div>
+                </label>
+                <label class="dth_email">
+                    <div class="item">
+                        <span>Điện thoại:</span>
+                        <input id="phone_" type="text">
+                        <div class="form_message"></div>
+                    </div>
+                    
+                    <div class="item">
+                        <span>Email:</span>
+                        <input id="email_" type="text">
+                        <div class="form_message"></div>
+                    </div>
+                    
+                </label>
+                
+                <label>
+                    <span>Về việc:</span>
+                    <select name="" id="select_">
+                        <option value="0"> Góp ý với Lãnh đạo nhà Trường</option>
+                       
+                        <option value="1">one</option>
+                        <option value="2">two</option>
+                        <option value="3">three</option>
+                    </select>
+                </label>
+
+                <label>
+                    <span>Tiêu đề:</span>
+                    <input id="title_" type="text">
+                    <div class="form_message"></div>
+                </label>
+
+                <label>
+                    <span>Nội dung:</span>
+                    <textarea name="" id="textarea_" cols="30" rows="10"></textarea>
+                </label>
+
+                <button id="submit_" class="btn btn-primary">Gởi đi</button>
+            </form>
+        </div>
+    </div>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>

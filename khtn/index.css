@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.boxnavcon {
+    color: white;
+}
+.boxnavcon a {
+    padding: 5px 10px;
+}
+.boxnavcon a:hover {
+    background-color: red;
+}
+.navbar_ {
+    background-color: #0063cd;
+}
+
+.boxnav {
+    background-color: #0063cd;
+}
+.boxnav a {
+    color: white;
+}
+.boxnav a:hover {
+    background-color: red;
+}
+.boxnav .buuton_ {
+    width: 50px;
+    border: none;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 690px;
+}
+.box3 {
+    background-color: #0063cd;
+    color: white;
+}
+
+.box3 a:hover {
+    background-color: red;
+}
+

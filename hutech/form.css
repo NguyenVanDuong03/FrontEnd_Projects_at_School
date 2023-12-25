@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {}
+.form h1 {
+    padding: 15px 0;
+    color: rgb(8, 159, 159);
+}
+.form p {}
+.form p img {
+    margin: 0 10px 0 0;
+}
+.form p span {
+    color: rgb(8, 159, 159)
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+.form form label {}
+.form form label span {
+    color: orange;
+}
+.form form label > input {
+    width: 100%;
+}
+.form form .dth_email {
+    display: flex;
+    justify-content: space-between;
+}
+.form form .dth_email .item {
+    width: 45%;
+}
+.form form .dth_email .item input {
+    width: 100%;
+}
+.form form label select {
+    width: 100%;
+}
+.form form label textarea {
+    width: 100%;
+    padding: 10px;
+}
+.form form .btn-primary {
+    width: 10%;
+    margin-left: 90%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.form_message {
+    color: #e04562;
+    font-size: 12px;
+}

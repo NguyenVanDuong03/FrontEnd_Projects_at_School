@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="header">
+                <img src="img_7/logo.png" alt="">
+            </div>
+
+            <div class="input-group input_header">
+                <span class="input-group-text span_input" id="basic-addon1"><div class="fas fa-user"></div></span>
+                <input id="email_" type="text" class="form-control text_input" placeholder="Địa chỉ email" aria-label="Username" aria-describedby="basic-addon1">
+                
+              </div>
+              <div class="form_message"></div>
+
+              <div class="input-group mt-3 input_header">
+                <span class="input-group-text span_input" id="basic-addon1"><div class="fas fa-key"></div></span>
+                <input id="password_" type="password" class="form-control text_input" placeholder="Nhập mật khẩu" aria-label="Username" aria-describedby="basic-addon1"> 
+                
+              </div>
+              <div class="form_message"></div>
+
+              <label class="mt-3">
+                <input id="checkbox_" type="checkbox">
+                <span>Duy trì đăng nhập</span>
+              </label>
+              <br>
+              <button id="submit_" type="button" class="btn btn-success">Đăng nhập</button>
+        </form>
+    </div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    margin: 10% 0;
+}
+
+.col-7 {}
+.col-7 .bigitem {
+    margin-bottom: 50px;
+}
+.col-7 .header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 8px 5px;
+}
+.col-7 .item {
+    padding-left: 5px;
+}
+.star {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+}
+.col-5 {}
+.col-5 .form {
+}
+.col-5 .form h3 {
+    background-color: #ba2742;
+    color: white;
+    margin-bottom: 0;
+    padding: 5px 10px;
+}
+.col-5 .form form {
+    border: 1px solid gray;
+    padding: 10px;
+}
+.col-5 .form form textarea {
+    width: 100%;
+    padding: 5px;
+}
+.col-5 .form form .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col-5 .form form .container img {}
+
+.col-5 .form form .container .button_ {
+    margin-top: 15px;
+}
+
+.required {
+    background: url("img/required.png") right center no-repeat;
+}
+
+.required_textarea {
+    background: url("img/required.png") right top no-repeat;
+}
+
+.form_message {
+    color: #ba2742;
+    font-size: 10px;
+}
