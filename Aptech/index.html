@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="bgr container-fluid">
+            <a class="navbar-brand bgr" href="#">
+                <img class="logo" src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">TUYỂN SINH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">KHÓA HỌC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">GIỚI THIỆU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">LIÊN THÔNG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">LIÊN HỆ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light mb-3" href="#">Đăng ký học</a>
+                        <!-- bs5-modal-gird: khi xóa cần hiển thị hỏi "chắc chắn muốn xóa không?" -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div
+            class="container-fluid"
+        >
+           <!-- bs5-carousel-default là ra SLIDE -->
+           <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="First slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="1"
+                    aria-label="Second slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="2"
+                    aria-label="Third slide"
+                ></li>
+            </ol> -->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img
+                        src="img/banner-web.png.webp"
+                        class="w-100 d-block"
+                        alt="First slide"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="img/bs2.png"
+                        class="w-100 d-block"
+                        alt="Second slide"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="img/BLUE.png.webp"
+                        class="w-100 d-block"
+                        alt="Third slide"
+                    />
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+           </div>
+           <!-- introduct -->
+           <div class="container">
+            <div
+            class="row g-2 mt-3"
+           >
+                <div class="col-md-11 col-lg-6">
+                    <h3 class="text-danger">"Chúng tôi không chạy theo công nghệ. Aptech luôn đón đầu công nghệ!"</h3>
+                    <div>
+                        <iframe width="650" height="385" src="https://aptech.vn/wp-content/uploads/2022/04/8016999485985355699.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-1"></div>
+                <div class="col-md-11 col-lg-5">
+                    <div
+                        class="row"
+                    >
+                        <div class="col-6 d-flex flex-column justify-content-center align-items-center g-2 text-center">
+                            <img src="img/medal_1.png" alt="">
+                            <h6>CÚP ĐƠN VỊ ĐÀO TẠO NHÂN LỰC CNTT SỐ 1 VN</h6>
+                            <P>Trao bởi Hiệp hội phần mềm Việt Nam</P>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center align-items-center g-2 text-center">
+                            <img src="img/medal_1.png" alt="">
+                            <h6>CÚP ĐƠN VỊ ĐÀO TẠO NHÂN LỰC CNTT SỐ 1 VN</h6>
+                            <P>Trao bởi Hiệp hội phần mềm Việt Nam</P>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center align-items-center g-2 text-center">
+                            <img src="img/medal_1.png" alt="">
+                            <h6>CÚP ĐƠN VỊ ĐÀO TẠO NHÂN LỰC CNTT SỐ 1 VN</h6>
+                            <P>Trao bởi Hiệp hội phần mềm Việt Nam</P>
+                        </div>
+                        <div class="col-6 d-flex flex-column justify-content-center align-items-center g-2 text-center">
+                            <img src="img/medal_1.png" alt="">
+                            <h6>CÚP ĐƠN VỊ ĐÀO TẠO NHÂN LỰC CNTT SỐ 1 VN</h6>
+                            <P>Trao bởi Hiệp hội phần mềm Việt Nam</P>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+           <!-- card -->
+           <div
+            class="row justify-content-start align-items-center g-5 mt-3"
+           >
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="img/banner-web.png.webp" alt="LẬP TRÌNH VIÊN QUỐC TẾ" />
+                        <div class="card-body">
+                            <h4 class="card-title">LẬP TRÌNH VIÊN QUỐC TẾ</h4>
+                            <p class="card-text">Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="img/banner-web.png.webp" alt="LẬP TRÌNH VIÊN QUỐC TẾ" />
+                        <div class="card-body">
+                            <h4 class="card-title">LẬP TRÌNH VIÊN QUỐC TẾ</h4>
+                            <p class="card-text">Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="img/banner-web.png.webp" alt="LẬP TRÌNH VIÊN QUỐC TẾ" />
+                        <div class="card-body">
+                            <h4 class="card-title">LẬP TRÌNH VIÊN QUỐC TẾ</h4>
+                            <p class="card-text">Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="img/banner-web.png.webp" alt="LẬP TRÌNH VIÊN QUỐC TẾ" />
+                        <div class="card-body">
+                            <h4 class="card-title">LẬP TRÌNH VIÊN QUỐC TẾ</h4>
+                            <p class="card-text">Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="img/banner-web.png.webp" alt="LẬP TRÌNH VIÊN QUỐC TẾ" />
+                        <div class="card-body">
+                            <h4 class="card-title">LẬP TRÌNH VIÊN QUỐC TẾ</h4>
+                            <p class="card-text">Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-start">
+                        <img class="card-img-top" src="img/banner-web.png.webp" alt="LẬP TRÌNH VIÊN QUỐC TẾ" />
+                        <div class="card-body">
+                            <h4 class="card-title">LẬP TRÌNH VIÊN QUỐC TẾ</h4>
+                            <p class="card-text">Chương trình đào tạo chuẩn quốc tế và toàn diện. Phù hợp với học sinh tốt nghiệp THPT, sinh viên và người định hướng theo nghề lập trình chuyên nghiệp.</p>
+                        </div>
+                   </div>
+                </div>
+           </div>
+        </div>
+        </div>
+
+           
+    </main>
+
+    <footer class="bgr">
+        <div class="container">
+            <div
+            class="row justify-content-center align-items-center mt-4"
+        >
+            <div class="col-12">
+                <div
+                    class="row justify-content-between align-items-center g-2"
+                >
+                    <div class="col-3 gx-5">
+                        <img class="card-img-top" src="img/logo.png" alt="">
+                    </div>
+                    <div class="col-3 gx-5">LIÊN HỆ</div>
+                    <div class="col-3 gx-5">NỔI BẬT</div>
+                    <div class="col-3 gx-5">THEO DÕI</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div
+                    class="row justify-content-between align-items-start g-2"
+                >
+                    <div class="col-3 gx-5">
+                        <p>Hanoi-Aptech với hơn 22 năm kinh nghiệm đào tạo Lập trình viên (thành lập năm 2001) tự hào là nhà cung cấp dịch vụ đào tạo Công nghệ thông tin hàng đầu tại Việt Nam cấp bằng Quốc Tế.</p>
+                    </div>
+                    <div class="col-3 gx-5">
+                        <div class="d-flex">
+                            <div class="fas fa-map-location "></div>
+                            <p>Địa chỉ: Tầng 1, Tòa C5, Đại học Thủy Lợi, 175 Tây Sơn, Đống Đa, Hà Nội</p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="fas fa-phone"></div>
+                            <p>Hotline: 0382 020 858</p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="fas fa-envelope"></div>
+                            <p>Email: info@aptech.vn</p>
+                        </div>
+                    </div>
+                    <div class="col-3 gx-5">
+                        <ul>
+                            <li><a class="nav-item contact" href="#">Học Bổng Aptech 2023</a></li>
+                            <li><a class="nav-item contact" href="#">Giới thiệu</a></li>
+                            <li><a class="nav-item contact" href="#">Chương Trình Đào Tạo</a></li>
+                            <li><a class="nav-item contact" href="#">Tin Tức Sự Kiện</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 gx-5">
+                        <div class="d-flex">
+                            <div class="fab fa-facebook-square icon-footer"></div>
+                            <div class="fab fa-instagram icon-footer"></div>
+                            <div class="fab fa-facebook-messenger icon-footer"></div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        
+        
+        
+        
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/jquery-3.7.1.min.js"></script>
+    <script src="style/script.js"></script>
+</body>
+
+</html>

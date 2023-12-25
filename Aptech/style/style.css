@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+    width: 150px;
+}
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.bgr {
+    background-color: #ce0a0a;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact {
+    color: white;
+}
+
+.icon-footer {
+    margin-right: 10px;
+}
+
+.card-img-top {
+    width: 150px;
+}
