@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+      <div class="big_box">
+        <div class="box_con">
+          <h3>ĐĂNG NHẬP HỆ THỐNG</h3>
+        <button id="vie">Tiếng việt</button>
+        </div>
+        
+        <form action="">
+          <span>Tên đăng nhập</span> <br>
+            <div class="input-group input_header">
+              <span class="input-group-text span_input" id="basic-addon1"><div class="fas fa-user"></div></span>
+              <input id="name_" type="text" class="form-control text_input" aria-label="Username" aria-describedby="basic-addon1">
+              
+            </div>
+            <div class="form_message mb-3"></div>
+
+            <span>Mật khẩu</span> <br>
+            <div class="input-group input_header">
+              <span class="input-group-text span_input" id="basic-addon1"><div class="fas fa-key"></div></span>
+              <input id="password_" type="password" class="form-control text_input" aria-label="Username" aria-describedby="basic-addon1">
+              
+            </div>
+            <div class="form_message mb-3"></div>
+
+            <label>
+              <input id="checkbox_" type="checkbox">
+              <span>Ghi nhớ</span>
+            </label>
+            <label>
+              <a style="margin-left: 166px; color: red; text-decoration: none;" href="">Quên mật khẩu?</a>
+            </label>
+            <br>
+            <button id="submit_" type="button" class="btn btn-success">Đăng nhập</button>
+      </form>
+      </div>
+        
+    </div>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
