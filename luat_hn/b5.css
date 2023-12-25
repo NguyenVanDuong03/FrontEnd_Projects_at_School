@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {}
+.header .col-12 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.header .col-12 a {
+    margin: 0 20px;
+    color: black;
+    font-weight: bold;
+}
+.header .col-12 a img {
+    width:35px;
+}
+.header .row {
+    margin-top: 20px;
+}
+.header .row .col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .row .col-4 img {
+    width: 100%;
+}
+.header .row .col-4 .input-group {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .row .col-4 .input-group input {
+    padding: 5px 50px 5px 10px;
+    border: 1px solid gray;
+    position: relative;
+    width: 300px;
+}
+.header .row .col-4 .input-group button {
+    padding: 0 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 64px;
+    top: 6px;
+}
+
+/* article */
+
+    /* nav */
+.article .navbar {
+    background-color: #005180;
+    margin-top: 40px;
+    padding: 25px 0;
+}
+.article .navbar a {
+    color: white;
+    font-size: 18px;
+}
+.article .navbar a span {}
+.article .navbar a span i {}
+
+    /* col-left */
+.container .col-10 {
+    height: 570px;
+}
+.container .col-10 img {
+    width: 101.2%;
+    height: 100%;
+}
+
+    /* col-right */
+.container .col-2 {
+    background-color: #005180;
+}
+.container .col-2 ul {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+}
+.container .col-2 ul li {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .col-2 ul li a {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .col-2 ul li a p {
+    margin:0 0 0 10px;
+}
+.container .col-2 ul li a img {
+    width: 45px;
+
+}
+
+/* footer */
+.footer {
+    background-color: rgb(186, 181, 181);
+}
+.container_ {
+    padding: 30px;
+}
+.container_ .row {}
+.container_ .row .col-4 {}
+.container_ .row .col-4 a {
+    color: white;
+    font-size: 25px;
+}
+.container_ .row .col-4 a i {}
+.container_ .row .col-4 a i span {}
+
+.row .col-4 a:hover {
+    color: red;
+}
+#search {
+    color: white;
+}
+.navbar_ > a:hover, .navbar_main a:hover, p:hover {
+    color: orange;
+}

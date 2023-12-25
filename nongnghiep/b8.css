@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    background-color: #07314f;
+}
+.row_header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.nav_header {
+    
+}
+.nav_header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav_header a:hover {
+    color: rgb(187, 210, 58);
+}
+
+.title_ {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* content */
+.lydo {
+    font-weight: bold;
+}
+.col-md-4 {
+    border: 10px solid white;
+}
+.col-md-4 h5 {
+    color: white;
+    font-weight: bold;
+}
+.col-md-4 p {
+    color: white;
+}

@@ -1,0 +1,73 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {}
+.header .navbar_header {}
+.header .navbar_header a {
+    color: #2a3c95;
+}
+#logo_tlus {
+    width: 100%;
+}
+.header_2 {}
+.header_2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.header_2 a img {
+    height: 100%;
+    margin-right: 5px;
+}
+.header_2 a span {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+
+.article {
+    background-image: url('img_9/bgr-slider.jpg');
+}
+.article .nav_content {
+    background-color: #2a3c95;
+}
+.article .nav_content .nav_main_content {
+    margin: auto 0;
+}
+.article .nav_content .navbar_2{
+}
+.article .nav_content a {
+    color: white;
+    font-weight: bold;
+}
+.article .nav_content a .fa-magnifying-glass {
+    color: white;
+}
+.article .nav_content .box_input {
+}
+.article .nav_content .box_input input {}
+.article .nav_content .box_input span {
+}
+
+.article .img_content {}
+.article .img_content a {}
+.article .img_content a img {
+    width: 100%;
+}
+
+.navbar_footer {}
+.navbar_footer .nav-item {}
+.navbar_footer .nav-item img {
+    width: 64px;
+    height: 64px;
+}
+.navbar_footer .nav-item p {} */

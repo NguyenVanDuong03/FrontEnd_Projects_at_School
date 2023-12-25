@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+}
+.header {}
+.header .row_header {
+    background-color: blue;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+.header .row_header .title_header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.header .row_header h1 {
+    color: white;
+}
+.header .row_header a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.header .row_header .lienket {
+    margin-bottom: 10px;
+}
+.header .row_header a .fas {}
+.header .row_header a span {}
+
+form {
+    padding-top: 5px;
+}
+form div {}
+form div span {
+    font-weight: bold;
+}
+form div input {
+    width: 380px;
+    height: 33px;
+    padding: 0 10px;
+}
+form div textarea {
+    width: 380px;
+    padding: 10px;
+}
+form div button {}
+
+.form_message {
+    color: #e04562;
+    font: 10px;
+}

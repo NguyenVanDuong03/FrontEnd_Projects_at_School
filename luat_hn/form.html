@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 header_">
+                <h3>Thông tin liên hệ</h3>
+            </div>
+            <div class="col-6 header_">
+                <h3>Bản đồ</h3>
+            </div>
+            <div class="col-6 form_">
+                <form action="">
+                    <p>
+                        <span>Họ và tên</span> <br>
+                        <input id="name_" type="text" placeholder="Họ và tên">
+                    </p>
+                    <div class="form_message"></div>
+
+                    <p>
+                        <span>Email</span> <br>
+                        <input id="email_" type="text" placeholder="Email">
+                    </p>
+                    <div class="form_message"></div>
+                    <p>
+                        <span>Nội dung</span> <br>
+                        <textarea name="" id="content_" cols="30" rows="6"></textarea>
+                    </p>
+                    <p>
+                        <a href=""><img src="img_5/captcha.png" alt=""></a>
+                    </p>
+                    <p>
+                        <button id="submit_" class="btn btn-primary">Gửi</button>
+                    </p>
+                </form>
+            </div>
+            <div class="col-6 map">
+                <img src="img_5/map.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
