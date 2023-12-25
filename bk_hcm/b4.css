@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #132d65;
+}
+.header .row .col-xl-4 {
+    display: flex;
+    justify-content: center;
+}
+.header .row .col-xl-6 {
+    margin-left: 100px;
+}
+.header .row .col-xl-6 .navbar {
+    height: 100%;
+}
+.header .row .col-xl-6 .navbar a {
+    color: white;
+}
+.header .row .col-xl-6 .navbar a:hover {
+    color: red;
+}
+.header .row .col-xl-6 .navbar .input-group-text {
+    height: 25px;
+}
+.header .row .col-xl-6 .navbar .input-group-text input {
+    border: none;
+}
+.header .row .col-xl-6 .navbar .fa-user {
+    color: white;
+}
+.header .row .col-xl-6 .navbar img {
+    height: 15px;
+}
+
+/* content */
+
+.articel .container {
+    width: 1045px;
+}
+.articel .container .navbar {}
+.articel .container .navbar a {
+    color: black;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.articel .container .navbar a:hover {
+    color: red;
+}
+.articel .container .navbar a .fa-house-chimney {}
+
+/* content 1 */
+.articel .column .col-lg-8 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.articel .column .col-lg-8 {
+    background-color: antiquewhite;
+}
+
+.articel .column .col-lg-8 > img {
+    width: 80%;
+}
+
+/* content 2 */
+.articel .column .col-xl-8 {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articel .column .col-xl-8 span {
+    font-size: 20px;
+}
+.articel .column .col-xl-8 a {
+    color: black;
+}
+.articel .column .col-xl-8 a:hover {
+    color: red;
+}
+/* content 3 */
+.articel .column .col-8 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articel .column .col-8 a {
+    color: rgb(143, 37, 37);
+}
+.articel .column .col-8 a:hover {
+    color: red;
+}
+.articel .column .col-8 a li {}
+.articel .column .col-8 a img {
+    width: 300px;
+}
