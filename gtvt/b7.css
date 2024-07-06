@@ -57,6 +57,7 @@ a:hover {
 
 .row_content {
     background-color: #bcc2c7;
+    margin: 0;
 }
 .row_content .content_left {}
 .row_content .content_left a {}
@@ -95,5 +96,9 @@ a:hover {
 .row_content_right_bottom a {}
 .row_content_right_bottom a img {
     width: 100%;
+}
+
+.box_content_2 {
+
 }
 

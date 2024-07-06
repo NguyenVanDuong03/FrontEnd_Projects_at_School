@@ -39,6 +39,8 @@ a{ text-decoration: none;}
 }
 
 .form_message {
+    height: 15px;
+    padding: 2px;
     color: #e04562;
     font-size: 15px;
 }

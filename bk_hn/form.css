@@ -63,6 +63,8 @@
 }
 
 .form_message {
+    height: 15px;
+    padding: 2px;
     color: #ba2742;
     font-size: 10px;
 }

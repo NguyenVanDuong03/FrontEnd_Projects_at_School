@@ -12,6 +12,9 @@ a {
 .header {
     background-color: #132d65;
 }
+.header .row {
+    margin: 0;
+}
 .header .row .col-xl-4 {
     display: flex;
     justify-content: center;

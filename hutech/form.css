@@ -56,4 +56,7 @@
 .form_message {
     color: #e04562;
     font-size: 12px;
+    height: 15px;
+    padding: 2px;
+    margin-bottom: 10px;
 }

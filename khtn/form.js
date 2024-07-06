@@ -20,6 +20,7 @@ function reset() {
     $('#address_').val('');
     $('#textarea_').val('');
     $('#title_').val('');
+    $('.form_message').text('');
 }
 
 $(document).ready( () => {
@@ -63,5 +64,10 @@ $(document).ready( () => {
             alert('Bạn đã liên hệ thành công. Chúng tôi sẽ sớm liên hệ lại với Bạn');
             reset();
         }
+    })
+
+    $('#reset').click( (e) => {
+        e.preventDefault();
+        reset();
     })
 })

@@ -6,21 +6,21 @@
 }
 
 body {
-    width: 100%;
-    height: 100%;
 }
 
 .boxnavcon {
     color: white;
+    padding: 0;
 }
 .boxnavcon a {
     padding: 5px 10px;
 }
 .boxnavcon a:hover {
-    background-color: red;
+    color: yellow;
 }
 .navbar_ {
     background-color: #0063cd;
+    padding: 0;
 }
 
 .boxnav {
@@ -30,7 +30,7 @@ body {
     color: white;
 }
 .boxnav a:hover {
-    background-color: red;
+    color: yellow;
 }
 .boxnav .buuton_ {
     width: 50px;
@@ -45,6 +45,7 @@ body {
 .box3 {
     background-color: #0063cd;
     color: white;
+    padding: 0;
 }
 
 .box3 a:hover {
